@@ -2166,7 +2166,6 @@ a.tag-plugin.button:hover {
   border-radius: 2px;
   flex-shrink: 0;
   margin-right: 8px;
-  pointer-events: none;
 }
 .md-text .tag-plugin.checkbox input[type=checkbox]:before,
 .md-text .tag-plugin.checkbox input[type=checkbox]:after {
@@ -6763,6 +6762,9 @@ div.swiper-slide img {
 }
 .swiper-button-next:after {
   transform: translateX(1px);
+}
+.slide-up {
+  visibility: hidden;
 }
 img[data-fancybox],
 a[data-fancybox] {
